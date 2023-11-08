@@ -1,0 +1,38 @@
+* {
+  font-family: "Courier New";
+}
+body {
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid #777;
+  border-radius: 0.5rem;
+  box-shadow: 0 50px 50px 50 rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  padding: 4rem;
+  font-family: Arial;
+}
+
+.name {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 0.5rem;
+  padding: 0 1rem;
+}
+
+.label {
+  font-weight: bold;
+}
